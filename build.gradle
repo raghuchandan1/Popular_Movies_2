@@ -23,7 +23,7 @@ allprojects {
         
     }
     project.ext {
-        api_key = "\"832d1fbd1e24def77bf8dc811626565b\""
+        api_key = "\"PLACE_YOUR_API_KEY_HERE\""
     }
 }
 
