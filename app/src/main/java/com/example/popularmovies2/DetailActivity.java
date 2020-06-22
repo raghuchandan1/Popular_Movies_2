@@ -87,7 +87,7 @@ public class DetailActivity extends AppCompatActivity implements LoaderManager.L
         //Log.i("DetailActivity",movieTitle);
         movieTitleView.setText(movie.getTitle());
         movieReleaseDateView.setText(movie.getRelease_date());
-        movieLengthView.setText(String.format("%d min", movie.getRuntime()));
+        //movieLengthView.setText(String.format("%d min", movie.getRuntime()));
         movieVoteAverageView.setText(String.format("%s/10", movie.getVote_average()));
         moviePlotSynopsisView.setText(movie.getOverview());
         int width  = Resources.getSystem().getDisplayMetrics().widthPixels;
