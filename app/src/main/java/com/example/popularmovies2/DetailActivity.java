@@ -338,7 +338,12 @@ public class DetailActivity extends AppCompatActivity implements LoaderManager.L
                 } else if ((movie.getId () == movieInDb.getId ()) && !favouriteButton.isChecked ()){
                     Log.i("Insertion","Inserting again");
                     movie = movieInDb;
-                    movie.setReviews(reviews);
+                    if(reviews!=null) {
+                        movie.setReviews(reviews);
+                    }
+                    else{
+                        reviewAdapter.setReviewsData(movie.getReviews());
+                    }
                     favouriteButton.setChecked (true);
                     favouriteButton.setText("Favourited!");
                     favouriteButton.setTextColor (Color.parseColor("#FFFF00"));

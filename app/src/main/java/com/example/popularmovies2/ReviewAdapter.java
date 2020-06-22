@@ -69,6 +69,12 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ReviewView
         Log.i("Review Results", results.toString());
         notifyDataSetChanged();
     }
+    public void setReviewsData(Review[] reviews) {
+
+        this.reviews = reviews;
+        //Log.i("Review Results", results.toString());
+        notifyDataSetChanged();
+    }
     public void getReviewsData(Review[] reviews){
         this.reviews = reviews;
     }
