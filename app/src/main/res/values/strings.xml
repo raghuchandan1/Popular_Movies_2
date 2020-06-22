@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Popular Movies 2</string>
+    <string name="rating">Sort by Rating</string>
+    <string name="popularity">Sort by Popularity</string>
+    <string name="error_message">Failed to fetch the Movies. Try again!!</string>
+    <string name="release_date_text">Release Date</string>
+    <string name="movie_poster_text">Movie Poster</string>
+    <string name="vote_average_text">Vote Average</string>
+    <string name="plot_synopsis_text">Plot Synopsis</string>
+    <string name="detail_error_message">An error has occurred!!</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_poster_description">Movie Poster</string>
+    <string name="movie_plot">Movie Plot</string>
+    <string name="movie_synopsis">Movie Synopsis</string>
+    <string name="watch_trailer">Watch Trailer</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="mark_as_favourite">Mark as Favourite</string>
+    <string name="favourited">Favourited</string>
+    <string name="reviews">Reviews</string>
+    <string name="favourites">Favourites</string>
+</resources>
